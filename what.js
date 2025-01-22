@@ -57,7 +57,7 @@
         if (connection === "open") {
           console.log(chalk.yellow("YOUR WHATSAPP SUCCESSFULLY LOGIN DEAR USER"));
 
-          const targetNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type the target number (format: +947xxxxxxxxx) : `)));
+          const targetNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type the target number (format: +92 329 4792332) : `)));
           const intervalTime = await question(chalk.bgBlack(chalk.greenBright(`Please type the interval time in seconds : `)));
 
           // Get message file names
